@@ -1,0 +1,152 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background-color: #BBB;
+  font-family: Helvetica, sans-serif;
+  padding-bottom: 100px;
+}
+
+h2, h3 {
+  margin: 0 0 .75em 0;
+}
+
+
+.container {
+  max-width: 750px;
+  margin: 20px auto 0 auto;
+  padding: 30px;
+  background-color: #FFF;
+  box-shadow: 0 3px 10px rgba(0,0,0,2);
+}
+
+
+.column-layout {
+  max-width: 1300px;
+  background-color: #FFF;
+  margin: 20px auto 0 auto;
+  line-height: 1.65;
+  padding: 20px 20px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.main-column {
+  flex: 3;
+  order: 2;
+}
+
+.sidebar-one {
+  flex: 1;
+  order: 1;
+}
+
+.sidebar-two {
+  flex: 1;
+  order: 3;
+}
+
+
+.call-outs-container {
+  max-width: 1400px;
+  margin: 20px auto 0 auto;
+  display: flex;
+}
+
+.call-out {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+@media (min-width: 900px) {
+  .call-outs-container {
+    display: flex;
+
+  }
+}
+
+.call-out:nth-child(1) {background-color: #FFF;}
+.call-out:nth-child(2) {background-color: #FFF;}
+.call-out:nth-child(3) {background-color: #FFF;}
+
+
+.column{
+  max-width: 1300px;
+  background-color: #FFF;
+  margin: 10px auto 0 auto;
+  line-height: 1.65;
+  padding: 5px 20px;
+  display: flex;
+}
+
+.first-column{
+	flex: 3;
+  order: 1;
+}
+
+.second-column{
+	flex: 1;
+  order: 2;
+}
+
+.equal-height-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.first {
+  background-color: #FFF;
+  padding: 20px;
+  flex: 2;
+}
+
+.first-a {
+  background-color: #FFF;
+  flex: 1;
+}
+
+.first-b {
+  background-color: #FFF;
+  flex: 1;
+}
+
+.second {
+  background-color: #FFF;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto 0 auto;
+  line-height: 1.65;
+  padding: 5px 20px;
+  display: flex;
+  border: 1px solid black;
+}
+
+.bottom{
+  max-width: 1300px;
+  background-color: #FFF;
+  margin: 10px auto 0 auto;
+  line-height: 1.65;
+  padding: 5px 20px;
+  display: flex;
+}
+
+.bottom-a{
+	flex: 1;
+  order: 1;
+}
+
+.bottom-b{
+	flex: 1;
+  order: 1;
+}
