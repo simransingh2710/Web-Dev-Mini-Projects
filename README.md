@@ -6,4 +6,6 @@
 
 2)A sample registration form using HTML & CSS.
 
+3)A basic newspaper page using HTML & CSS.
+
 
