@@ -43,8 +43,17 @@ h2{
     margin-bottom: 10px;
     padding-bottom: 20px;
     position: relative;
+    width:100%;
+    height:auto;
+    padding:1%;
 }
 
+.fas{
+    margin-left:2%;
+float:left; 
+height:40px;
+width:40px; 
+}
 .form-control label {
     color: #696969;
     display: block;
