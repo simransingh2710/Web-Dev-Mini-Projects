@@ -8,5 +8,5 @@
 
 3)A basic newspaper page using HTML & CSS.
 
-4)A simple Curriculum Vitae using HTML & CSS.
+4)A simple Curriculum Vitae.
 
